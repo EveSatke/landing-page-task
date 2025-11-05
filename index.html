@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Landing Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="src/styles/main.scss">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+        <script type="module" src="src/js/main.js"></script>
+        <script type="module" src="src/js/slider.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <header class="header" role="banner">
+            <div class="container header__bar">
+                <button class="header__toggle"
+                type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="primary-nav">
+            <img src="/icons/menu-burger.svg" alt="Menu"></button>
+            <a href="#" class="header__logo" aria-label="Homepage">LOGO</a>
+            </div>
+            <nav class="header__nav" role="navigation">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="#">Shop</a></li>
+                    <li class="header__item"><a class="header__link"href="#">Mission</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main >
+            <section id="hero" class="hero" aria-label="Featured">    
+            </section>
+
+            <section id="benefits" aria-label="Key benefits">
+                <ul>
+                    <li>
+                      <img src="..." alt="" role="presentation">
+                      <p>Improves sleep</p>
+                    </li>
+            </section>
+            <section id="subscribe" aria-label="Subscribe and save">
+                <h2>Subscribe and save</h2>
+                <ul aria-label="Perks">
+                    <li>Delivery every 30 days</li>
+                    <li>Best value per box</li>
+                    <li>No commitment, cancel anytime</li>
+                  </ul>
+            </section>
+            <section id="features" aria-labelledby="features-title">
+                <h2 id="features-title">Performance nutrition and healthy transformation made simple:</h2>
+                <ul>
+                    <li>
+                      <h3>Enhance endurance</h3>
+                      <p>Short description...</p>
+                    </li>
+            </section>
+            <section id="recommendation" aria-labelledby="recommendation-title">
+                <img src="..." alt="" role="presentation">
+                <h3>only exceptional USDA certified organic sustainable sourced ingredients qualify.</h3>
+            </section>
+            <section id="blend" aria-labelledby="blend-title">
+                <h2>[product name] blend</h2>
+                <button type="button">add to cart</button>
+            </section>
+            <section id="process" aria-labelledby="process-title">
+                <h2>Meticulous Methodical Process</h2>
+            </section>
+            <section id="faq" aria-labelledby="faq-title">
+            <h4>FAQ</h4>
+            </section>
+    </body>
+</html>
