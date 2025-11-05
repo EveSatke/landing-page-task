@@ -1,0 +1,33 @@
+/* === Tokens === */
+$color-primary: #C2110E;
+$color-text: #0B0A0C;
+$color-muted: #F9E8E7;
+$color-bg: #F5F5F5;
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 12px;
+$space-4: 16px;
+$space-5: 20px;
+$space-6: 24px;
+$space-8: 32px;
+$space-10: 40px;
+$space-12: 48px;
+$space-14: 56px;
+$space-16: 64px;
+
+$radius-md: 15px;
+
+
+/* Utilities */
+.container { width: min(100% - 2rem, 1200px); margin-inline: auto; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; clip-path: inset(50%); }
+
+/* Base */
+*,*::before,*::after { box-sizing: border-box; }
+html,body { height: 100%; }
+body { margin: 0; color: $color-text; background: $color-bg; font-family: "Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
