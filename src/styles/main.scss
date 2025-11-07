@@ -525,3 +525,53 @@
     }
   }
 }
+
+.process {
+  padding: $space-8 0;
+  background-color: $color-white;
+
+  &__title {
+    text-align: center;
+    font-size: 3.125rem;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.01em;
+    margin-bottom: $space-14;
+  }
+  &__list {
+    list-style: none;
+    padding: 0 $space-8;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+  }
+  &__left {
+    align-items: flex-start;
+  }
+  &__right {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  &__item-icon {
+    height: 48px;
+    width: auto;
+    margin-bottom: $space-5;
+  }
+  &__item-title {
+    font-weight: 600;
+    margin: 0;
+  }
+  &__item-description {
+    font-weight: 400;
+    margin: 0;
+    max-width: 260px;
+  }
+  &__arrow-separator {
+    text-align: center;
+    margin: $space-4 auto 0;
+  }
+}
