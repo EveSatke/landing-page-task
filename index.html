@@ -17,6 +17,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   </head>
   <body>
+    <!-- ========== Header ========== -->
     <header class="header" role="banner">
       <div class="container header__bar">
         <nav class="header__nav" role="navigation">
@@ -30,17 +31,25 @@
           type="button"
           aria-label="Open menu"
           aria-expanded="false"
-          aria-controls="primary-nav"
+          aria-controls="mobile-nav"
         >
           <img src="/icons/menu-burger.svg" alt="Menu" />
         </button>
+        <nav id="mobile-nav" class="header__mobile-nav" hidden>
+          <ul class="header__mobile-list">
+            <li class="header__mobile-item"><a href="#">shop</a></li>
+            <li class="header__mobile-item"><a href="#">mission</a></li>
+          </ul>
+          <button class="header__mobile-close" type="button" aria-label="Close menu">Close</button>
+        </nav>
 
         <a href="#" class="header__logo" aria-label="Homepage">LOGO</a>
         <div class="header__spacer"></div>
       </div>
     </header>
     <main>
-      <section id="hero " class="hero" aria-label="Hero">
+      <!-- ========== Hero ========== -->
+      <section class="hero" aria-label="Hero">
         <div class="hero__bg" role="img" aria-label="Featured hero image"></div>
         <div class="hero__content">
           <h1 class="hero__title">New Year, New “You” with [product name]</h1>
@@ -48,7 +57,8 @@
         </div>
       </section>
 
-      <section id="benefits" aria-label="Key benefits">
+      <!-- ========== Benefits ========== -->
+      <section class="benefits" aria-label="Key benefits">
         <ul class="benefits__list">
           <li class="benefits__item">
             <svg
@@ -132,6 +142,7 @@
           </li>
         </ul>
       </section>
+      <!-- ========== Subscribe ========== -->
       <section class="subscribe" aria-label="Subscribe and save">
         <h2 class="subscribe__title">subscribe & save</h2>
         <ul class="subscribe__list" aria-label="Perks">
@@ -164,6 +175,7 @@
           </li>
         </ul>
       </section>
+      <!-- ========== Features ========== -->
       <section class="features" aria-labelledby="features-title">
         <h2 class="features__title">
           Performance nutrition and healthy transformation made simple:
@@ -284,6 +296,7 @@
           </li>
         </ul>
       </section>
+      <!-- ========== Recommendation ========== -->
       <section class="recommendation" aria-labelledby="recommendation-title">
         <img
           class="recommendation__logo"
@@ -295,6 +308,7 @@
           only exceptional USDA certified organic sustainable sourced ingredients qualify.
         </h3>
       </section>
+      <!-- ========== Slider ========== -->
       <section class="slider" aria-labelledby="blend-title">
         <h2 class="slider__title">
           <span class="slider__title-highlight">[product name]</span> blend
@@ -467,6 +481,7 @@
         <button class="button button--secondary" type="button">add to cart</button>
       </section>
       <!-- Mobile view -->
+      <!-- ========== Process (Mobile) ========== -->
       <section class="process" aria-labelledby="process-title">
         <h2 class="process__title">Meticulous Methodical Process</h2>
         <ul class="process__list">
@@ -525,6 +540,7 @@
 
       <!-- Tablet/desktop view -->
 
+      <!-- ========== Process Timeline (Tablet/Desktop) ========== -->
       <section class="process-timeline" aria-labelledby="process-timeline__title">
         <h2 class="process-timeline__title" id="process-timeline__title">
           Meticulous Methodical Process
@@ -618,6 +634,7 @@
           </article>
         </div>
       </section>
+      <!-- ========== FAQ ========== -->
       <section class="faq" aria-labelledby="faq__title">
         <div class="container faq__container">
           <h2 class="faq__title" id="faq__title">FAQs</h2>

@@ -1,0 +1,67 @@
+@use '../tokens/variables' as *;
+
+.features {
+  background-color: $color-white;
+  padding: $space-10 0;
+  &__title {
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: $space-10;
+    margin: 0 $space-4;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $space-8;
+    list-style: none;
+    padding: 0 $space-8;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: $space-6;
+    margin: 0;
+  }
+  &__icon {
+    width: 20px;
+    height: auto;
+    flex: none;
+    color: $color-text;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  &__text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: $color-text;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: $space-8;
+      padding: 0 120px;
+    }
+    &__icon {
+      width: 40px;
+    }
+    &__text {
+      font-size: 1rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    &__list {
+      max-width: 80%;
+      grid-template-columns: repeat(3, 1fr);
+      gap: $space-10 90px;
+      padding: 0;
+      justify-self: center;
+    }
+  }
+}

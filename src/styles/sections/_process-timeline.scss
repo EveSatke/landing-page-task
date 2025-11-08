@@ -1,0 +1,71 @@
+@use '../tokens/variables' as *;
+
+@media (min-width: 768px) {
+  .process {
+    display: none;
+  }
+  .process-timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-white;
+    padding: $space-16 0;
+
+    &__title {
+      text-align: center;
+      font-size: 3.125rem;
+      font-weight: 800;
+      margin: 0;
+      letter-spacing: -0.01em;
+      margin-bottom: $space-14;
+    }
+
+    &__grid {
+      display: grid;
+      grid-template-columns: minmax(260px, 1fr) 90px minmax(260px, 1fr);
+      position: relative;
+      max-width: 712px;
+    }
+
+    &__vertical-decor {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 0;
+      pointer-events: none;
+      width: auto;
+      max-height: 100%;
+    }
+
+    &__card-heading {
+      margin: 0 0 $space-4;
+      font-size: 1.125rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+    }
+
+    &__card-text {
+      margin: 0;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      padding-bottom: $space-3;
+    }
+
+    &__node {
+      grid-column: 2;
+      display: grid;
+      place-items: center;
+      height: 150px; /* adjust to match spacing */
+      z-index: 1;
+      align-self: flex-end;
+    }
+
+    &__node-icon img {
+      width: 40px;
+      height: 46px;
+    }
+  }
+}

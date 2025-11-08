@@ -1,0 +1,51 @@
+@use '../tokens/variables' as *;
+
+.hero {
+  position: relative;
+  &__bg {
+    height: 699px;
+    background: top/cover no-repeat url('/images/main-img-mobile.jpg');
+  }
+  @media (min-width: 768px) {
+    &__bg {
+      height: 1024px;
+      background: center/cover no-repeat url('/images/main-img-tablet.jpg');
+    }
+  }
+
+  @media (min-width: 1024px) {
+    &__bg {
+      height: 700px;
+      background-image: url('/images/main-img.jpg');
+    }
+  }
+
+  &__content {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    place-content: center;
+    justify-items: center;
+    text-align: center;
+    grid-auto-rows: max-content;
+    padding: 0 $space-8;
+  }
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: $color-white;
+    letter-spacing: -0.01em;
+    max-width: 602px;
+    align-self: center;
+  }
+
+  &__button {
+    align-self: end;
+    margin-bottom: 50px;
+    @media (min-width: 768px) {
+      margin-bottom: 155px;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@use '../tokens/variables' as *;
+
+.faq {
+  padding: $space-16 0;
+
+  &__container {
+    display: grid;
+    gap: $space-8;
+  }
+
+  &__title {
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 1.25rem;
+    font-weight: 800;
+  }
+
+  &__list {
+    display: grid;
+    margin: 0 auto;
+  }
+
+  &__item {
+    &[open] .faq__icon {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $space-14;
+    padding: $space-2 $space-1;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-size: 0.875rem;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  &__icon {
+    width: 20px;
+    height: auto;
+    transition: transform 0.2s ease;
+  }
+
+  &__answer {
+    padding: $space-5 $space-12 $space-3 $space-1;
+
+    p {
+      margin: 0;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    &__list {
+      width: 100%;
+      max-width: 700px;
+    }
+    &__question {
+      font-size: 1rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    &__list {
+      max-width: 800px;
+    }
+    &__question {
+      font-size: 1rem;
+    }
+  }
+}

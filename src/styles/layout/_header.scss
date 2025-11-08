@@ -1,0 +1,129 @@
+@use '../tokens/variables' as *;
+
+.header {
+  padding: $space-4 0;
+  &__bar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+  }
+  &__nav {
+    display: none;
+  }
+  &__toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  &__logo {
+    grid-column: 2;
+    justify-self: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $color-black;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+  }
+
+  &__mobile-nav {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba($color-bg, 0.95);
+    display: grid;
+    place-items: center;
+    padding: $space-8;
+    z-index: 1;
+
+    &[hidden] {
+      display: none;
+    }
+  }
+
+  &__mobile-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: $space-6;
+  }
+
+  &__mobile-item {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: inherit;
+  }
+
+  &__mobile-close {
+    margin-top: $space-8;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: $color-text;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media (min-width: 768px) {
+    &__mobile-nav {
+      display: none !important;
+    }
+
+    &__spacer {
+      grid-column: 3;
+    }
+    &__toggle {
+      display: none;
+    }
+    &__bar {
+      grid-template-columns: 1fr auto 1fr;
+      height: 48px;
+    }
+    &__nav {
+      grid-column: 1;
+      display: block;
+      padding-left: $space-8;
+    }
+    &__list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    &__link {
+      font-size: 1rem;
+      font-weight: 500;
+      color: $color-text;
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+    &__link:hover {
+      color: $color-primary;
+    }
+    &__link:active {
+      color: $color-primary;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    &__bar {
+      grid-template-columns: 1fr 1fr;
+    }
+    &__nav {
+      align-items: center;
+      justify-self: center;
+      padding-left: 0;
+    }
+    &__logo {
+      justify-self: start;
+    }
+  }
+}

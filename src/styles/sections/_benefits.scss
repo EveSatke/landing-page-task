@@ -1,0 +1,63 @@
+@use '../tokens/variables' as *;
+
+.benefits {
+  background-color: $color-white;
+
+  &__list {
+    margin: 0 auto;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 20px;
+    padding: $space-8;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-muted;
+    border-radius: $radius-md;
+    padding: $space-4 $space-8;
+    height: 118px;
+    max-width: 170px;
+    transition: color 0.2s ease;
+  }
+  &__icon {
+    width: 48px;
+    height: 49px;
+    flex: none;
+    color: $color-text;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &__text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: $color-text;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    margin: 0;
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    &__list {
+      grid-template-columns: repeat(4, max-content);
+      gap: 32px;
+      padding: $space-10 $space-8;
+      justify-items: center;
+    }
+  }
+  @media (min-width: 1024px) {
+    &__item {
+      flex-direction: row;
+    }
+  }
+}
