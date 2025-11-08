@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Landing Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="/landing-page-task/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script type="module" crossorigin src="/landing-page-task/assets/index-B6p4oz99.js"></script>
+    <link rel="stylesheet" crossorigin href="/landing-page-task/assets/index-D5Bi0EnY.css">
+  </head>
+  <body>
+    <!-- ========== Header ========== -->
+    <header class="header" role="banner">
+      <div class="container header__bar">
+        <nav class="header__nav" role="navigation">
+          <ul class="header__list">
+            <li class="header__item"><a class="header__link" href="#">shop</a></li>
+            <li class="header__item"><a class="header__link" href="#">mission</a></li>
+          </ul>
+        </nav>
+        <button
+          class="header__toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-nav"
+        >
+          <img src="/landing-page-task/icons/menu-burger.svg" alt="Menu" />
+        </button>
+        <nav id="mobile-nav" class="header__mobile-nav" hidden>
+          <ul class="header__mobile-list">
+            <li class="header__mobile-item"><a href="#">shop</a></li>
+            <li class="header__mobile-item"><a href="#">mission</a></li>
+          </ul>
+          <button class="header__mobile-close" type="button" aria-label="Close menu">Close</button>
+        </nav>
+
+        <a href="#" class="header__logo" aria-label="Homepage">LOGO</a>
+        <div class="header__spacer"></div>
+      </div>
+    </header>
+    <main>
+      <!-- ========== Hero ========== -->
+      <section class="hero" aria-label="Hero">
+        <div class="hero__bg" role="img" aria-label="Featured hero image"></div>
+        <div class="hero__content">
+          <h1 class="hero__title">New Year, New “You” with [product name]</h1>
+          <button class="button hero__button" type="button">Try [product name]</button>
+        </div>
+      </section>
+
+      <!-- ========== Benefits ========== -->
+      <section class="benefits" aria-label="Key benefits">
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <svg
+              class="benefits__icon"
+              viewBox="0 0 49 48"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M27.9361 0C14.4334 0 3.5 10.7464 3.5 24C3.5 37.2536 14.4334 48 27.9361 48C34.5618 48 40.5642 45.4071 44.9703 41.2071C45.517 40.6821 45.6591 39.8679 45.3093 39.2036C44.9594 38.5393 44.205 38.1643 43.4506 38.2929C42.3791 38.475 41.2858 38.5714 40.1596 38.5714C29.5652 38.5714 20.9716 30.1286 20.9716 19.7143C20.9716 12.6643 24.9076 6.525 30.7351 3.28929C31.402 2.91429 31.7409 2.16429 31.5769 1.43571C31.4129 0.707143 30.7788 0.160714 30.0135 0.0964287C29.3247 0.0428573 28.6359 0.0107141 27.9361 0.0107141V0Z"
+                fill="currentColor"
+              />
+            </svg>
+            <p class="benefits__text">Improves sleep</p>
+          </li>
+          <li class="benefits__item">
+            <svg
+              class="benefits__icon"
+              viewBox="0 0 47 48"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.3846 0.27337C23.9804 0.0942655 23.5474 0 23.0951 0C22.6428 0 22.2098 0.0942655 21.8056 0.27337L3.68563 7.80518C1.56858 8.68185 -0.00957917 10.7274 4.37699e-05 13.1972C0.0481585 22.5483 3.97432 39.6575 20.5546 47.4344C22.1617 48.1885 24.0285 48.1885 25.6355 47.4344C42.2159 39.6575 46.142 22.5483 46.1901 13.1972C46.1998 10.7274 44.6216 8.68185 42.5046 7.80518L24.3846 0.27337ZM12.3174 20.861C12.3174 17.6748 14.9541 15.0825 18.2163 15.0825C19.7752 15.0825 21.2764 15.6952 22.383 16.7698L23.0951 17.4674L23.8072 16.7698C24.9138 15.6858 26.415 15.0825 27.9739 15.0825C31.2265 15.0825 33.8728 17.6654 33.8728 20.861C33.8728 22.3881 33.2473 23.8586 32.1503 24.9427L24.1921 32.7384C23.5955 33.3229 22.6139 33.3229 22.0173 32.7384L14.0592 24.9427C12.9525 23.8586 12.3366 22.3881 12.3366 20.861H12.3174Z"
+                fill="currentColor"
+              />
+            </svg>
+            <p class="benefits__text">Boosts immune system</p>
+          </li>
+          <li class="benefits__item">
+            <svg
+              class="benefits__icon"
+              viewBox="0 0 36 48"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 0C16.6594 0 18 1.34062 18 3V13.5H12V3C12 1.34062 13.3406 0 15 0ZM3 6C3 4.34062 4.34062 3 6 3C7.65938 3 9 4.34062 9 6V13.5H3V6ZM21 6C21 4.34062 22.3406 3 24 3C25.6594 3 27 4.34062 27 6V15C27 16.6594 25.6594 18 24 18C22.3406 18 21 16.6594 21 15V6ZM30 12C30 10.3406 31.3406 9 33 9C34.6594 9 36 10.3406 36 12V18C36 19.6594 34.6594 21 33 21C31.3406 21 30 19.6594 30 18V12ZM21 20.25V20.1937C21.8813 20.7 22.9031 21 24 21C25.2375 21 26.3813 20.625 27.3375 19.9875C28.1531 22.3219 30.3844 24 33 24C34.0969 24 35.1188 23.7094 36 23.1937V24C36 28.9031 33.6469 33.2625 30 36V45C30 46.6594 28.6594 48 27 48H12C10.3406 48 9 46.6594 9 45V37.65C7.37813 36.9094 5.8875 35.8875 4.60312 34.6031L3.51562 33.5156C1.26562 31.2656 0 28.2094 0 25.0312V22.5C0 19.1906 2.69063 16.5 6 16.5H14.25C16.3219 16.5 18 18.1781 18 20.25C18 22.3219 16.3219 24 14.25 24H9C8.175 24 7.5 24.675 7.5 25.5C7.5 26.325 8.175 27 9 27H14.25C17.9813 27 21 23.9813 21 20.25Z"
+                fill="currentColor"
+              />
+            </svg>
+            <p class="benefits__text">Enhances strength</p>
+          </li>
+          <li class="benefits__item">
+            <svg
+              class="benefits__icon"
+              viewBox="0 0 52 48"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.34 47.1526V43.5422C19.34 40.2386 22.018 37.5605 25.3217 37.5605H31.8189C32.1688 37.5605 32.4546 37.2757 32.4557 36.9258L32.4562 36.7384C32.4567 36.5647 32.3935 36.3941 32.271 36.2708C32.1506 36.1499 31.9902 36.0832 31.8197 36.0832H13.1506C9.84689 36.0832 7.16882 33.4051 7.16882 30.1015V29.8981C7.16882 26.5944 9.84689 23.9163 13.1506 23.9163H37.941C38.2928 23.9163 38.5778 23.6313 38.5778 23.2795V23.173C38.5778 22.8212 38.2928 22.5362 37.941 22.5362H15.9621C14.3748 22.5362 12.8797 21.921 11.752 20.804C10.6244 19.687 9.99529 18.1977 9.98034 16.6105L9.97981 16.5435C9.96486 14.9354 10.5798 13.4205 11.712 12.2779C12.8439 11.1353 14.3532 10.506 15.9616 10.506H32.2035C32.5534 10.506 32.8392 10.2212 32.8403 9.87128V9.81843C32.8408 9.65829 32.7874 9.50082 32.6812 9.38098C32.5584 9.24246 32.3871 9.16559 32.2037 9.16559H27.7892C24.4855 9.16559 21.8075 6.48752 21.8075 3.18384V0.846605C21.8075 0.378997 22.1865 0 22.6541 0H26.306C26.7737 0 27.1527 0.378997 27.1527 0.846605V3.18358C27.1527 3.53535 27.4377 3.8204 27.7895 3.8204H32.204C33.8051 3.8204 35.3096 4.44494 36.4402 5.57873C37.5708 6.71252 38.1908 8.2189 38.186 9.82003V9.83498C38.1812 11.4294 37.5631 12.9689 36.436 14.0968C35.3059 15.2279 33.8025 15.8509 32.204 15.8509H15.9784C15.8038 15.8509 15.6327 15.9149 15.5097 16.0391C15.3891 16.1608 15.3231 16.3222 15.3247 16.4936L15.3253 16.5606C15.3285 16.9075 15.6149 17.1913 15.9618 17.1913H37.9549C41.2508 17.1913 43.9227 19.8632 43.9227 23.1591V23.2798C43.9227 26.5835 41.2447 29.2615 37.941 29.2615H13.1506C12.7988 29.2615 12.5138 29.5466 12.5138 29.8983V30.1017C12.5138 30.4535 12.7988 30.7385 13.1506 30.7385H31.7673C33.3714 30.7385 34.9208 31.3594 36.0537 32.4947C37.1857 33.6288 37.8065 35.1362 37.8017 36.7384L37.8011 36.9424C37.7963 38.5405 37.1689 40.0419 36.0348 41.1684C34.9034 42.2924 33.3621 42.9062 31.7671 42.9062H25.3223C24.9705 42.9062 24.6854 43.1913 24.6854 43.543V47.1534C24.6854 47.621 24.3064 48 23.8388 48H20.1868C19.7192 48 19.3402 47.621 19.3402 47.1534L19.34 47.1526Z"
+                fill="currentColor"
+              />
+              <path
+                d="M45.0667 18.8085L45.055 18.7909C44.7366 18.3065 44.8708 17.6558 45.3553 17.3374L47.5382 15.9017C48.0227 15.5833 48.6734 15.7176 48.9918 16.202L49.0035 16.2196C49.3219 16.704 49.1877 17.3547 48.7032 17.6731L46.5203 19.1088C46.0359 19.4272 45.3852 19.293 45.0667 18.8085Z"
+                fill="currentColor"
+              />
+              <path
+                d="M48.992 30.6948L49.0038 30.6772C49.3222 30.1927 49.1879 29.542 48.7035 29.2236L46.5205 27.788C46.0361 27.4696 45.3854 27.6038 45.067 28.0882L45.0552 28.1058C44.7368 28.5903 44.8711 29.241 45.3555 29.5594L47.5385 30.995C48.0229 31.3134 48.6736 31.1792 48.992 30.6948Z"
+                fill="currentColor"
+              />
+              <path
+                d="M50.2056 22.4395H47.5931C47.0134 22.4395 46.5434 22.9094 46.5434 23.4892V23.51C46.5434 24.0897 47.0134 24.5597 47.5931 24.5597H50.2056C50.7853 24.5597 51.2553 24.0897 51.2553 23.51V23.4892C51.2553 22.9094 50.7853 22.4395 50.2056 22.4395Z"
+                fill="currentColor"
+              />
+              <path
+                d="M2.25213 22.9293L2.26372 22.9117C2.58195 22.4278 3.23327 22.2933 3.71718 22.6115L5.90013 24.0471C6.38404 24.3653 6.51879 25.0168 6.20041 25.5009L6.18882 25.5185C5.87059 26.0024 5.21927 26.137 4.73536 25.8187L2.55241 24.3832C2.0685 24.0649 1.93375 23.4135 2.25213 22.9293Z"
+                fill="currentColor"
+              />
+              <path
+                d="M2.55266 35.933L4.7356 34.4974C5.21951 34.1792 5.87106 34.3136 6.18944 34.7977L6.20102 34.8153C6.51925 35.2992 6.38487 35.9508 5.90074 36.2692L3.7178 37.7047C3.23389 38.023 2.58234 37.8886 2.26396 37.4044L2.25237 37.3868C1.93414 36.9029 2.06852 36.2514 2.55266 35.933Z"
+                fill="currentColor"
+              />
+              <path
+                d="M3.66213 29.1504H1.04972C0.469974 29.1504 0 29.6204 0 30.2001V30.2209C0 30.8007 0.469974 31.2706 1.04972 31.2706H3.66213C4.24187 31.2706 4.71184 30.8007 4.71184 30.2209V30.2001C4.71184 29.6204 4.24187 29.1504 3.66213 29.1504Z"
+                fill="currentColor"
+              />
+            </svg>
+            <p class="benefits__text">Improves digestion</p>
+          </li>
+        </ul>
+      </section>
+      <!-- ========== Subscribe ========== -->
+      <section class="subscribe" aria-label="Subscribe and save">
+        <h2 class="subscribe__title">subscribe & save</h2>
+        <ul class="subscribe__list" aria-label="Perks">
+          <li class="subscribe__item">
+            <img
+              class="subscribe__icon"
+              src="/landing-page-task/icons/cycle.svg"
+              alt="delivery icon"
+              role="presentation"
+            />
+            <span class="subscribe__text">delivery every 30 days</span>
+          </li>
+          <li class="subscribe__item">
+            <img
+              class="subscribe__icon"
+              src="/landing-page-task/icons/percentage.svg"
+              alt="value icon"
+              role="presentation"
+            />
+            <span class="subscribe__text">best value per box</span>
+          </li>
+          <li class="subscribe__item">
+            <img
+              class="subscribe__icon"
+              src="/landing-page-task/icons/close.svg"
+              alt="cancel icon"
+              role="presentation"
+            />
+            <span class="subscribe__text">no commitment, cancel anytime</span>
+          </li>
+        </ul>
+      </section>
+      <!-- ========== Features ========== -->
+      <section class="features" aria-labelledby="features-title">
+        <h2 class="features__title">
+          Performance nutrition and healthy transformation made simple:
+        </h2>
+        <ul class="features__list">
+          <li class="features__item">
+            <svg
+              class="features__icon"
+              viewBox="0 0 41 46"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_146)">
+                <path
+                  d="M30.1875 4.3125C30.1875 1.93164 28.2559 0 25.875 0C23.4941 0 21.5625 1.93164 21.5625 4.3125C21.5625 6.69336 23.4941 8.625 25.875 8.625C28.2559 8.625 30.1875 6.69336 30.1875 4.3125ZM12.7309 15.7676C13.6203 14.8781 14.8332 14.375 16.1 14.375C16.2707 14.375 16.4414 14.384 16.6031 14.402L13.8 22.8203C12.9645 25.3359 13.9527 28.1031 16.2078 29.5137L23.9523 34.3563L21.6703 42.3344C21.2301 43.8617 22.1195 45.452 23.6469 45.8922C25.1742 46.3324 26.7645 45.443 27.2047 43.9156L29.7832 34.8953C30.3133 33.0445 29.5496 31.068 27.9234 30.0527L22.8203 26.8633L25.5965 19.4602L26.0547 20.5652C27.4023 23.7816 30.5379 25.875 34.0238 25.875H35.9375C37.5277 25.875 38.8125 24.5902 38.8125 23C38.8125 21.4098 37.5277 20.125 35.9375 20.125H34.0238C32.8648 20.125 31.8137 19.4242 31.3734 18.3551L30.8074 17.0074C29.4957 13.8539 26.8453 11.4461 23.575 10.4398L19.1996 9.09219C18.2023 8.78672 17.1602 8.625 16.109 8.625C13.3238 8.625 10.6465 9.73008 8.67891 11.7066L6.59453 13.782C5.47148 14.9051 5.47148 16.7289 6.59453 17.852C7.71758 18.975 9.54141 18.975 10.6645 17.852L12.7398 15.7766L12.7309 15.7676ZM9.63125 31.625H4.3125C2.72227 31.625 1.4375 32.9098 1.4375 34.5C1.4375 36.0902 2.72227 37.375 4.3125 37.375H10.5656C12.2727 37.375 13.818 36.3688 14.5098 34.8145L15.543 32.4875L14.6895 31.9484C13.1172 30.9691 11.9492 29.5406 11.2844 27.9145L9.63125 31.625Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_146">
+                  <rect width="40.25" height="46" fill="currentColor" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="features__text">
+              Enhance <b>endurance, performance</b>, and exercise <b>recovery</b>
+            </p>
+          </li>
+          <li class="features__item">
+            <svg
+              class="features__icon"
+              viewBox="0 0 40 47"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_291)">
+                <path
+                  d="M31.1964 4.04112C31.7232 2.79978 31.3303 1.35004 30.2499 0.552679C29.1696 -0.244679 27.6964 -0.172192 26.6874 0.715776L3.83031 21.0122C2.93745 21.8095 2.61602 23.0871 3.03567 24.2107C3.45531 25.3342 4.52674 26.0953 5.71424 26.0953H15.6696L8.80352 42.3506C8.27674 43.5919 8.66959 45.0416 9.74995 45.839C10.8303 46.6364 12.3035 46.5639 13.3125 45.6759L36.1696 25.3795C37.0624 24.5822 37.3839 23.3046 36.9642 22.181C36.5446 21.0575 35.4821 20.3054 34.2857 20.3054H24.3303L31.1964 4.04112Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_291">
+                  <rect width="40" height="46.3918" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <p class="features__text">
+              Enjoy jitter-free <b>energy</b> to tackle your busy schedule
+            </p>
+          </li>
+          <li class="features__item">
+            <svg
+              class="features__icon"
+              viewBox="0 0 46 46"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.2039 0.260547C23.8266 0.0898438 23.4223 0 23 0C22.5778 0 22.1735 0.0898438 21.7961 0.260547L4.87856 7.43906C2.90199 8.27461 1.42856 10.2242 1.43754 12.5781C1.48246 21.4906 5.14809 37.7973 20.6282 45.2094C22.1286 45.9281 23.8715 45.9281 25.3719 45.2094C40.852 37.7973 44.5176 21.4906 44.5625 12.5781C44.5715 10.2242 43.0981 8.27461 41.1215 7.43906L24.2039 0.260547ZM23 10.0625C23.7907 10.0625 24.4375 10.7094 24.4375 11.5C24.4375 14.4648 28.0223 15.9473 30.1157 13.8539C30.6727 13.2969 31.5891 13.2969 32.1461 13.8539C32.7032 14.4109 32.7032 15.3273 32.1461 15.8844C30.0528 17.9777 31.5352 21.5625 34.5 21.5625C35.2907 21.5625 35.9375 22.2094 35.9375 23C35.9375 23.7906 35.2907 24.4375 34.5 24.4375C31.5352 24.4375 30.0528 28.0223 32.1461 30.1156C32.7032 30.6727 32.7032 31.5891 32.1461 32.1461C31.5891 32.7031 30.6727 32.7031 30.1157 32.1461C28.0223 30.0527 24.4375 31.5352 24.4375 34.5C24.4375 35.2906 23.7907 35.9375 23 35.9375C22.2094 35.9375 21.5625 35.2906 21.5625 34.5C21.5625 31.5352 17.9778 30.0527 15.8844 32.1461C15.3274 32.7031 14.411 32.7031 13.8539 32.1461C13.2969 31.5891 13.2969 30.6727 13.8539 30.1156C15.9473 28.0223 14.4649 24.4375 11.5 24.4375C10.7094 24.4375 10.0625 23.7906 10.0625 23C10.0625 22.2094 10.7094 21.5625 11.5 21.5625C14.4649 21.5625 15.9473 17.9777 13.8539 15.8844C13.2969 15.3273 13.2969 14.4109 13.8539 13.8539C14.411 13.2969 15.3274 13.2969 15.8844 13.8539C17.9778 15.9473 21.5625 14.4648 21.5625 11.5C21.5625 10.7094 22.2094 10.0625 23 10.0625ZM20.8438 23C22.0387 23 23 22.0387 23 20.8437C23 19.6488 22.0387 18.6875 20.8438 18.6875C19.6489 18.6875 18.6875 19.6488 18.6875 20.8437C18.6875 22.0387 19.6489 23 20.8438 23ZM27.3125 25.875C27.3125 25.0844 26.6657 24.4375 25.875 24.4375C25.0844 24.4375 24.4375 25.0844 24.4375 25.875C24.4375 26.6656 25.0844 27.3125 25.875 27.3125C26.6657 27.3125 27.3125 26.6656 27.3125 25.875Z"
+                fill="currentColor"
+              />
+            </svg>
+            <p class="features__text">Strengthen your <b>immune health</b> to stay on your game</p>
+          </li>
+          <li class="features__item">
+            <svg
+              class="features__icon"
+              viewBox="0 0 40 35"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.4844 0.0734373C26.5156 0.479687 27.8359 2.45625 27.4297 4.4875L27.25 5.37812C26.8359 7.46406 26.0703 9.44844 25 11.2531H36.25C38.3203 11.2531 40 12.9328 40 15.0031C40 16.9797 38.4766 18.5969 36.5391 18.7453C37.1406 19.4094 37.5 20.2922 37.5 21.2531C37.5 23.0813 36.1875 24.6047 34.4609 24.9328C34.8047 25.4953 35 26.1672 35 26.8781C35 28.5422 33.9141 29.9563 32.4141 30.4406C32.4688 30.6984 32.5 30.9719 32.5 31.2531C32.5 33.3234 30.8203 35.0031 28.75 35.0031H23.0078C21.5234 35.0031 20.0781 34.5656 18.8438 33.7453L15.8359 31.7375C13.75 30.3469 12.5 28.0031 12.5 25.4953V22.5031V18.7531V16.8078C12.5 14.5266 13.5391 12.3781 15.3125 10.9484L15.8906 10.4875C17.9609 8.83125 19.375 6.50312 19.8906 3.90937L20.0703 3.01875C20.4766 0.9875 22.4531 -0.332813 24.4844 0.0734373ZM2.5 12.5031H7.5C8.88281 12.5031 10 13.6203 10 15.0031V32.5031C10 33.8859 8.88281 35.0031 7.5 35.0031H2.5C1.11719 35.0031 0 33.8859 0 32.5031V15.0031C0 13.6203 1.11719 12.5031 2.5 12.5031Z"
+                fill="currentColor"
+              />
+            </svg>
+            <p class="features__text">
+              <b>Tastes amazing!</b> No bitterness, gritty, or clumpy texture
+            </p>
+          </li>
+          <li class="features__item">
+            <svg
+              class="features__icon"
+              viewBox="0 0 46 46"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M33.6554 7.78037C34.7784 6.65732 34.7784 4.8335 33.6554 3.71045C32.5323 2.5874 30.7085 2.5874 29.5854 3.71045L17.2499 16.055L12.0929 10.898C10.9698 9.7749 9.146 9.7749 8.02295 10.898C6.8999 12.021 6.8999 13.8448 8.02295 14.9679L15.2104 22.1554C16.3335 23.2784 18.1573 23.2784 19.2804 22.1554L33.6554 7.78037ZM42.2804 19.2804C43.4034 18.1573 43.4034 16.3335 42.2804 15.2105C41.1573 14.0874 39.3335 14.0874 38.2104 15.2105L17.2499 36.18L7.78037 26.7194C6.65732 25.5964 4.8335 25.5964 3.71045 26.7194C2.5874 27.8425 2.5874 29.6663 3.71045 30.7894L15.2104 42.2894C16.3335 43.4124 18.1573 43.4124 19.2804 42.2894L42.2804 19.2894V19.2804Z"
+                fill="currentColor"
+              />
+            </svg>
+
+            <p class="features__text"><b>30 sec habit.</b> Mixes in any beverage fast and easy</p>
+          </li>
+          <li class="features__item">
+            <svg
+              class="features__icon"
+              viewBox="0 0 40 46"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_1_136)">
+                <path
+                  d="M14.1031 0.484984C14.7937 -0.170875 15.8649 -0.161891 16.5554 0.493968C18.9989 2.82092 21.2919 5.32756 23.4344 8.04084C24.4082 6.74709 25.5148 5.33655 26.71 4.18655C27.4094 3.5217 28.4895 3.5217 29.1889 4.19553C32.2521 7.16037 34.8461 11.0776 36.6698 14.7971C38.467 18.4627 39.6622 22.2092 39.6622 24.8506C39.6622 36.3147 30.8268 45.9998 19.8311 45.9998C8.71152 45.9998 0 36.3057 0 24.8416C0 21.3916 1.57587 17.178 4.01934 13.0092C6.48938 8.77756 9.97753 4.36623 14.1031 0.484984ZM19.9816 37.3748C22.2215 37.3748 24.2046 36.7459 26.0726 35.4881C29.7998 32.8467 30.8002 27.5639 28.5603 23.4131C28.3125 22.91 28.0646 22.4069 27.6927 21.9037L23.213 27.1865C23.213 27.1865 16.0065 17.8787 15.5019 17.2498C11.7836 21.9037 9.91556 24.5451 9.91556 27.5639C9.91556 33.7272 14.3953 37.3748 19.9816 37.3748Z"
+                  fill="currentColor"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_136">
+                  <rect width="39.6622" height="46" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <p class="features__text">Recharged <b>metabolism</b> to stay in peak shape</p>
+          </li>
+        </ul>
+      </section>
+      <!-- ========== Recommendation ========== -->
+      <section class="recommendation" aria-labelledby="recommendation-title">
+        <img
+          class="recommendation__logo"
+          src="/landing-page-task/images/usda-organic-logo.png"
+          alt="usda logo"
+          role="presentation"
+        />
+        <h3 class="recommendation__title">
+          only exceptional USDA certified organic sustainable sourced ingredients qualify.
+        </h3>
+      </section>
+      <!-- ========== Slider ========== -->
+      <section class="slider" aria-labelledby="blend-title">
+        <h2 class="slider__title">
+          <span class="slider__title-highlight">[product name]</span> blend
+        </h2>
+        <div class="slider__container swiper">
+          <div class="swiper-wrapper">
+            <div class="slider__slide swiper-slide">
+              <div class="slider__slide-text">
+                <h3 class="slider__slide-title">Metabolism Boosting</h3>
+                <p class="slider__slide-description">
+                  These powerful superfoods ignite your metabolism and reduce bloating. They improve
+                  digestion and deliver the energy you need to get things done.
+                </p>
+                <p class="slider__slide-description">Main Organic Ingiridents:</p>
+              </div>
+              <div class="slider__slide-ingredients">
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acai-berry.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic acai berry</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acacia-gum.png"
+                    alt="acacia gum"
+                  />
+                  <p class="slider__slide-ingredient-name">organic acacia gum</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/cinnamon-bark.png"
+                    alt="cinnamon bark"
+                  />
+                  <p class="slider__slide-ingredient-name">organic ceylon cinnamon bark</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/green-tea.png"
+                    alt="green tea"
+                  />
+                  <p class="slider__slide-ingredient-name">organic green tea</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider__slide swiper-slide">
+              <div class="slider__slide-text">
+                <h3 class="slider__slide-title">Calm Focus Formula</h3>
+                <p class="slider__slide-description">
+                  Crafted for clear-headed productivity. Adaptogens balance cortisol while
+                  nootropics keep your thoughts sharp without the caffeine jitters.
+                </p>
+                <p class="slider__slide-subtitle">Main Organic Ingredients:</p>
+              </div>
+
+              <div class="slider__slide-ingredients">
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acacia-gum.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic ashwagandha root</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acai-berry.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic lion’s mane mushroom</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acai-berry.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic peppermint leaf</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acacia-gum.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic lemongrass leaf</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__slide swiper-slide">
+              <div class="slider__slide-text">
+                <h3 class="slider__slide-title">Nightly Reset Blend</h3>
+                <p class="slider__slide-description">
+                  Wind down and recharge. This calm-inducing mix eases tension, supports deep sleep,
+                  and nourishes overnight recovery.
+                </p>
+                <p class="slider__slide-subtitle">Main Organic Ingredients:</p>
+              </div>
+
+              <div class="slider__slide-ingredients">
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acai-berry.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic chamomile flower</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/acai-berry.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic reishi mushroom</p>
+                </div>
+                <div class="slider__slide-ingredient">
+                  <img
+                    class="slider__slide-ingredient-image"
+                    src="/landing-page-task/images/cinnamon-bark.png"
+                    alt="acai berry"
+                  />
+                  <p class="slider__slide-ingredient-name">organic tart cherry</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__controls">
+            <button class="slider__arrow slider__arrow--prev" aria-label="Previous">
+              <svg
+                width="17"
+                height="24"
+                viewBox="0 0 17 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.16295 10.9406C1.50989 11.5265 1.50989 12.4781 2.16295 13.064L10.5221 20.564C11.1751 21.15 12.2357 21.15 12.8888 20.564C13.5418 19.9781 13.5418 19.0265 12.8888 18.4406L5.71036 12L12.8835 5.55935C13.5366 4.97341 13.5366 4.02185 12.8835 3.43591C12.2305 2.84998 11.1699 2.84998 10.5169 3.43591L2.15773 10.9359L2.16295 10.9406Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+
+            <div class="slider__pagination"></div>
+
+            <button class="slider__arrow slider__arrow--next" aria-label="Next">
+              <svg
+                width="17"
+                height="24"
+                viewBox="0 0 17 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.5553 10.9406C15.2084 11.5265 15.2084 12.4781 14.5553 13.064L6.19621 20.564C5.54316 21.15 4.48259 21.15 3.82953 20.564C3.17648 19.9781 3.17648 19.0265 3.82953 18.4406L11.0079 12L3.83476 5.55935C3.1817 4.97341 3.1817 4.02185 3.83476 3.43591C4.48781 2.84998 5.54838 2.84998 6.20144 3.43591L14.5606 10.9359L14.5553 10.9406Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button class="button button--secondary" type="button">add to cart</button>
+      </section>
+      <!-- Mobile view -->
+      <!-- ========== Process (Mobile) ========== -->
+      <section class="process" aria-labelledby="process-title">
+        <h2 class="process__title">Meticulous Methodical Process</h2>
+        <ul class="process__list">
+          <li class="process__item process__left">
+            <img class="process__item-icon" src="/landing-page-task/icons/mission.svg" alt="mission icon" />
+            <h3 class="process__item-title">Mission</h3>
+            <p class="process__item-description">
+              Our team of researchers are working around the clock to uncover the best performance
+              and health-boosting superfoods on the planet. We do the homework so you don’t have to.
+              Each superfood is supported by strong clinical studies.
+            </p>
+          </li>
+          <img
+            class="process__arrow-separator"
+            src="/landing-page-task/icons/arrow-down-right.svg"
+            alt="arrow down separator"
+          />
+          <li class="process__item process__right">
+            <img class="process__item-icon" src="/landing-page-task/icons/problem.svg" alt="mission icon" />
+            <h3 class="process__item-title">The problem</h3>
+            <p class="process__item-description">
+              our advisory panel reviews all of the scientific research in detail. Each ingredient
+              must pass the rigorous approval process. Once approved, only then do our formulas move
+              on to production.
+            </p>
+          </li>
+          <img
+            class="process__arrow-separator"
+            src="/landing-page-task/icons/arrow-down-left.svg"
+            alt="arrow down separator"
+          />
+          <li class="process__item process__left">
+            <img class="process__item-icon" src="/landing-page-task/icons/heart.svg" alt="mission icon" />
+            <h3 class="process__item-title">That isn’t therapeutic</h3>
+            <p class="process__item-description">
+              Production takes place in our GMP-compliant, state of the art manufacturing facility.
+              Once again, only using 100% organic ingredients that have been verified by the USDA.
+            </p>
+          </li>
+          <img
+            class="process__arrow-separator"
+            src="/landing-page-task/icons/arrow-down-right.svg"
+            alt="arrow down separator"
+          />
+          <li class="process__item process__right">
+            <img class="process__item-icon" src="/landing-page-task/icons/running.svg" alt="mission icon" />
+            <h3 class="process__item-title">The result</h3>
+            <p class="process__item-description">
+              Getting our formulas into the hands of people who need it most and transforming lives
+              for the better. We believe in improving humankind by improving human performance. And
+              that starts with nourishing your body with the right fuel.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Tablet/desktop view -->
+
+      <!-- ========== Process Timeline (Tablet/Desktop) ========== -->
+      <section class="process-timeline" aria-labelledby="process-timeline__title">
+        <h2 class="process-timeline__title" id="process-timeline__title">
+          Meticulous Methodical Process
+        </h2>
+
+        <div class="process-timeline__grid">
+          <img
+            class="process-timeline__vertical-decor"
+            src="/landing-page-task/images/vertical-decor.svg"
+            alt="vertical decor"
+          />
+          <!-- Step 1 -->
+          <article class="process-timeline__card process-timeline__card--left">
+            <div class="process-timeline__card-body">
+              <h3 class="process-timeline__card-heading">Mission</h3>
+              <p class="process-timeline__card-text">
+                Our researchers uncover the best performance and health-boosting superfoods on the
+                planet. We do the homework so you don’t have to. Each superfood is supported by
+                strong clinical studies.
+              </p>
+              <img src="/landing-page-task/images/horizontal-decor-left.svg" alt="horizontal decor" />
+            </div>
+          </article>
+
+          <div class="process-timeline__node process-timeline__node--top">
+            <span class="process-timeline__node-icon">
+              <img src="/landing-page-task/icons/mission.svg" alt="" />
+            </span>
+          </div>
+
+          <div class="process-timeline__spacer"></div>
+
+          <!-- Step 2 -->
+          <div class="process-timeline__spacer"></div>
+
+          <div class="process-timeline__node">
+            <span class="process-timeline__node-icon">
+              <img src="/landing-page-task/icons/problem.svg" alt="" />
+            </span>
+          </div>
+
+          <article class="process-timeline__card process-timeline__card--right">
+            <div class="process-timeline__card-body">
+              <h3 class="process-timeline__card-heading">The problem</h3>
+              <p class="process-timeline__card-text">
+                Our advisory panel reviews all scientific research in detail. Each ingredient must
+                pass a rigorous approval process before moving on to production.
+              </p>
+              <img src="/landing-page-task/images/horizontal-decor-right.svg" alt="horizontal decor" />
+            </div>
+          </article>
+
+          <!-- Step 3 -->
+          <article class="process-timeline__card process-timeline__card--left">
+            <div class="process-timeline__card-body">
+              <h3 class="process-timeline__card-heading">That isn’t therapeutic</h3>
+              <p class="process-timeline__card-text">
+                Production takes place in our GMP-compliant, state-of-the-art facility using 100%
+                organic ingredients verified by the USDA.
+              </p>
+              <img src="/landing-page-task/images/horizontal-decor-left.svg" alt="horizontal decor" />
+            </div>
+          </article>
+
+          <div class="process-timeline__node">
+            <span class="process-timeline__node-icon">
+              <img src="/landing-page-task/icons/heart.svg" alt="" />
+            </span>
+          </div>
+
+          <div class="process-timeline__spacer"></div>
+
+          <!-- Step 4 -->
+          <div class="process-timeline__spacer"></div>
+
+          <div class="process-timeline__node process-timeline__node--bottom">
+            <span class="process-timeline__node-icon">
+              <img src="/landing-page-task/icons/running.svg" alt="" />
+            </span>
+          </div>
+
+          <article class="process-timeline__card process-timeline__card--right">
+            <div class="process-timeline__card-body">
+              <h3 class="process-timeline__card-heading">The result</h3>
+              <p class="process-timeline__card-text">
+                We deliver formulas to people who need them most. Nourishing your body with the
+                right fuel improves human performance—from the inside out.
+              </p>
+              <img src="/landing-page-task/images/horizontal-decor-right.svg" alt="horizontal decor" />
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- ========== FAQ ========== -->
+      <section class="faq" aria-labelledby="faq__title">
+        <div class="container faq__container">
+          <h2 class="faq__title" id="faq__title">FAQs</h2>
+
+          <div class="faq__list">
+            <details class="faq__item" open>
+              <summary class="faq__question">
+                <span>What are the effective ingredients in [product name]?</span>
+                <img src="/landing-page-task/icons/chevron-down.svg" alt="" aria-hidden="true" class="faq__icon" />
+              </summary>
+              <div class="faq__answer">
+                <p>Pellentesque vitae convallis quam, in ultricies leo:</p>
+
+                <p><b>Lorem ipsum dolor sit ame:</b></p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida sollicitudin
+                  diam, vestibulum placerat nisl finibus ut. Duis ac pulvinar justo. Aliquam mi
+                  nisl, gravida eget suscipit non, sodales in tortor. Nam purus sem, blandit non
+                  justo ac, ornare tempor quam. Morbi pharetra vehicula ornare. Proin gravida turpis
+                  orci, sit amet sollicitudin mi rutrum nec.
+                </p>
+                <p><b>Curabitur gravida ullamcorper dui:</b></p>
+                <p>
+                  Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id est eu cursus.
+                  Mauris ut elit quis nunc eleifend egestas in ac lorem. Pellentesque - vitae
+                  convallis quam, in ultricies leo. Curabitur gravida ullamcorper dui. Aliquam velit
+                  arcu, ultrices nec mauris a, vehicula fermentum nisi. Donec commodo - nisl at
+                  magna congue volutpat. Suspendisse sed nulla ultricies, elementum risus venenatis,
+                  eleifend sem. Vestibulum rutrum ut lectus id dignissim. Curabitur eros diam -
+                  bibendum in ipsum ut, posuere suscipit magna. Maecenas at congue purus, vel
+                  facilisis odio. Praesent scelerisque, ipsum vel ultricies congue, odio turpis
+                  pharetra tellus, ac auctor orci tortor volutpat lectus. Vestibulum tempor - ipsum
+                  et nibh mattis, sed volutpat dui bibendum.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">
+                <span>Other question?</span>
+                <img src="/landing-page-task/icons/chevron-down.svg" alt="" aria-hidden="true" class="faq__icon" />
+              </summary>
+              <div class="faq__answer">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida ullamcorper
+                  dui quis viverra.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">
+                <span>Other question?</span>
+                <img src="/landing-page-task/icons/chevron-down.svg" alt="" aria-hidden="true" class="faq__icon" />
+              </summary>
+              <div class="faq__answer">
+                <p>
+                  Suspendisse cursus ligula nec risus volutpat, ac vehicula lorem facilisis. Manage
+                  your plan anytime from your account.
+                </p>
+              </div>
+            </details>
+
+            <details class="faq__item">
+              <summary class="faq__question">
+                <span>Other question?</span>
+                <img src="/landing-page-task/icons/chevron-down.svg" alt="" aria-hidden="true" class="faq__icon" />
+              </summary>
+              <div class="faq__answer">
+                <p>
+                  Phasellus sit amet felis nec nisl pretium dignissim. Check with your healthcare
+                  provider if you take prescription medication.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
