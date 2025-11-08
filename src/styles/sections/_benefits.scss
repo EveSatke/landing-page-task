@@ -49,13 +49,16 @@
 
   @media (min-width: 768px) {
     &__list {
-      grid-template-columns: repeat(4, max-content);
+      grid-template-columns: repeat(4, 1fr);
       gap: 32px;
       padding: $space-10 $space-8;
       justify-items: center;
     }
   }
   @media (min-width: 1024px) {
+    &__list {
+      grid-template-columns: repeat(4, max-content);
+    }
     &__item {
       flex-direction: row;
     }
