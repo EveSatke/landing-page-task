@@ -21,10 +21,7 @@
     <header class="header" role="banner">
       <div class="container header__bar">
         <nav class="header__nav" role="navigation">
-          <ul class="header__list">
-            <li class="header__item"><a class="header__link" href="#">shop</a></li>
-            <li class="header__item"><a class="header__link" href="#">mission</a></li>
-          </ul>
+          <ul class="header__list"></ul>
         </nav>
         <button
           class="header__toggle"
@@ -36,10 +33,7 @@
           <img src="/icons/menu-burger.svg" alt="Menu" />
         </button>
         <nav id="mobile-nav" class="header__mobile-nav" hidden>
-          <ul class="header__mobile-list">
-            <li class="header__mobile-item"><a href="#">shop</a></li>
-            <li class="header__mobile-item"><a href="#">mission</a></li>
-          </ul>
+          <ul class="header__mobile-list"></ul>
           <button class="header__mobile-close" type="button" aria-label="Close menu">Close</button>
         </nav>
 
@@ -48,7 +42,6 @@
       </div>
     </header>
     <main>
-      <!-- ========== Hero ========== -->
       <section class="hero" aria-label="Hero">
         <div class="hero__bg" role="img" aria-label="Featured hero image"></div>
         <div class="hero__content">
@@ -56,168 +49,19 @@
           <button class="button hero__button" type="button">Try [product name]</button>
         </div>
       </section>
-
-      <!-- ========== Benefits ========== -->
       <section class="benefits" aria-label="Key benefits">
         <ul class="benefits__list"></ul>
       </section>
-
-      <!-- ========== Subscribe ========== -->
       <section class="subscribe" aria-label="Subscribe and save">
         <h2 class="subscribe__title">subscribe & save</h2>
-        <ul class="subscribe__list" aria-label="Perks">
-          <li class="subscribe__item">
-            <img
-              class="subscribe__icon"
-              src="/icons/cycle.svg"
-              alt="delivery icon"
-              role="presentation"
-            />
-            <span class="subscribe__text">delivery every 30 days</span>
-          </li>
-          <li class="subscribe__item">
-            <img
-              class="subscribe__icon"
-              src="/icons/percentage.svg"
-              alt="value icon"
-              role="presentation"
-            />
-            <span class="subscribe__text">best value per box</span>
-          </li>
-          <li class="subscribe__item">
-            <img
-              class="subscribe__icon"
-              src="/icons/close.svg"
-              alt="cancel icon"
-              role="presentation"
-            />
-            <span class="subscribe__text">no commitment, cancel anytime</span>
-          </li>
-        </ul>
+        <ul class="subscribe__list" aria-label="Perks"></ul>
       </section>
-
-      <!-- ========== Features ========== -->
       <section class="features" aria-labelledby="features-title">
         <h2 class="features__title">
           Performance nutrition and healthy transformation made simple:
         </h2>
-        <ul class="features__list">
-          <li class="features__item">
-            <svg
-              class="features__icon"
-              viewBox="0 0 41 46"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0_1_146)">
-                <path
-                  d="M30.1875 4.3125C30.1875 1.93164 28.2559 0 25.875 0C23.4941 0 21.5625 1.93164 21.5625 4.3125C21.5625 6.69336 23.4941 8.625 25.875 8.625C28.2559 8.625 30.1875 6.69336 30.1875 4.3125ZM12.7309 15.7676C13.6203 14.8781 14.8332 14.375 16.1 14.375C16.2707 14.375 16.4414 14.384 16.6031 14.402L13.8 22.8203C12.9645 25.3359 13.9527 28.1031 16.2078 29.5137L23.9523 34.3563L21.6703 42.3344C21.2301 43.8617 22.1195 45.452 23.6469 45.8922C25.1742 46.3324 26.7645 45.443 27.2047 43.9156L29.7832 34.8953C30.3133 33.0445 29.5496 31.068 27.9234 30.0527L22.8203 26.8633L25.5965 19.4602L26.0547 20.5652C27.4023 23.7816 30.5379 25.875 34.0238 25.875H35.9375C37.5277 25.875 38.8125 24.5902 38.8125 23C38.8125 21.4098 37.5277 20.125 35.9375 20.125H34.0238C32.8648 20.125 31.8137 19.4242 31.3734 18.3551L30.8074 17.0074C29.4957 13.8539 26.8453 11.4461 23.575 10.4398L19.1996 9.09219C18.2023 8.78672 17.1602 8.625 16.109 8.625C13.3238 8.625 10.6465 9.73008 8.67891 11.7066L6.59453 13.782C5.47148 14.9051 5.47148 16.7289 6.59453 17.852C7.71758 18.975 9.54141 18.975 10.6645 17.852L12.7398 15.7766L12.7309 15.7676ZM9.63125 31.625H4.3125C2.72227 31.625 1.4375 32.9098 1.4375 34.5C1.4375 36.0902 2.72227 37.375 4.3125 37.375H10.5656C12.2727 37.375 13.818 36.3688 14.5098 34.8145L15.543 32.4875L14.6895 31.9484C13.1172 30.9691 11.9492 29.5406 11.2844 27.9145L9.63125 31.625Z"
-                  fill="currentColor"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_1_146">
-                  <rect width="40.25" height="46" fill="currentColor" />
-                </clipPath>
-              </defs>
-            </svg>
-            <p class="features__text">
-              Enhance <b>endurance, performance</b>, and exercise <b>recovery</b>
-            </p>
-          </li>
-          <li class="features__item">
-            <svg
-              class="features__icon"
-              viewBox="0 0 40 47"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0_1_291)">
-                <path
-                  d="M31.1964 4.04112C31.7232 2.79978 31.3303 1.35004 30.2499 0.552679C29.1696 -0.244679 27.6964 -0.172192 26.6874 0.715776L3.83031 21.0122C2.93745 21.8095 2.61602 23.0871 3.03567 24.2107C3.45531 25.3342 4.52674 26.0953 5.71424 26.0953H15.6696L8.80352 42.3506C8.27674 43.5919 8.66959 45.0416 9.74995 45.839C10.8303 46.6364 12.3035 46.5639 13.3125 45.6759L36.1696 25.3795C37.0624 24.5822 37.3839 23.3046 36.9642 22.181C36.5446 21.0575 35.4821 20.3054 34.2857 20.3054H24.3303L31.1964 4.04112Z"
-                  fill="currentColor"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_1_291">
-                  <rect width="40" height="46.3918" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-            <p class="features__text">
-              Enjoy jitter-free <b>energy</b> to tackle your busy schedule
-            </p>
-          </li>
-          <li class="features__item">
-            <svg
-              class="features__icon"
-              viewBox="0 0 46 46"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M24.2039 0.260547C23.8266 0.0898438 23.4223 0 23 0C22.5778 0 22.1735 0.0898438 21.7961 0.260547L4.87856 7.43906C2.90199 8.27461 1.42856 10.2242 1.43754 12.5781C1.48246 21.4906 5.14809 37.7973 20.6282 45.2094C22.1286 45.9281 23.8715 45.9281 25.3719 45.2094C40.852 37.7973 44.5176 21.4906 44.5625 12.5781C44.5715 10.2242 43.0981 8.27461 41.1215 7.43906L24.2039 0.260547ZM23 10.0625C23.7907 10.0625 24.4375 10.7094 24.4375 11.5C24.4375 14.4648 28.0223 15.9473 30.1157 13.8539C30.6727 13.2969 31.5891 13.2969 32.1461 13.8539C32.7032 14.4109 32.7032 15.3273 32.1461 15.8844C30.0528 17.9777 31.5352 21.5625 34.5 21.5625C35.2907 21.5625 35.9375 22.2094 35.9375 23C35.9375 23.7906 35.2907 24.4375 34.5 24.4375C31.5352 24.4375 30.0528 28.0223 32.1461 30.1156C32.7032 30.6727 32.7032 31.5891 32.1461 32.1461C31.5891 32.7031 30.6727 32.7031 30.1157 32.1461C28.0223 30.0527 24.4375 31.5352 24.4375 34.5C24.4375 35.2906 23.7907 35.9375 23 35.9375C22.2094 35.9375 21.5625 35.2906 21.5625 34.5C21.5625 31.5352 17.9778 30.0527 15.8844 32.1461C15.3274 32.7031 14.411 32.7031 13.8539 32.1461C13.2969 31.5891 13.2969 30.6727 13.8539 30.1156C15.9473 28.0223 14.4649 24.4375 11.5 24.4375C10.7094 24.4375 10.0625 23.7906 10.0625 23C10.0625 22.2094 10.7094 21.5625 11.5 21.5625C14.4649 21.5625 15.9473 17.9777 13.8539 15.8844C13.2969 15.3273 13.2969 14.4109 13.8539 13.8539C14.411 13.2969 15.3274 13.2969 15.8844 13.8539C17.9778 15.9473 21.5625 14.4648 21.5625 11.5C21.5625 10.7094 22.2094 10.0625 23 10.0625ZM20.8438 23C22.0387 23 23 22.0387 23 20.8437C23 19.6488 22.0387 18.6875 20.8438 18.6875C19.6489 18.6875 18.6875 19.6488 18.6875 20.8437C18.6875 22.0387 19.6489 23 20.8438 23ZM27.3125 25.875C27.3125 25.0844 26.6657 24.4375 25.875 24.4375C25.0844 24.4375 24.4375 25.0844 24.4375 25.875C24.4375 26.6656 25.0844 27.3125 25.875 27.3125C26.6657 27.3125 27.3125 26.6656 27.3125 25.875Z"
-                fill="currentColor"
-              />
-            </svg>
-            <p class="features__text">Strengthen your <b>immune health</b> to stay on your game</p>
-          </li>
-          <li class="features__item">
-            <svg
-              class="features__icon"
-              viewBox="0 0 40 35"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M24.4844 0.0734373C26.5156 0.479687 27.8359 2.45625 27.4297 4.4875L27.25 5.37812C26.8359 7.46406 26.0703 9.44844 25 11.2531H36.25C38.3203 11.2531 40 12.9328 40 15.0031C40 16.9797 38.4766 18.5969 36.5391 18.7453C37.1406 19.4094 37.5 20.2922 37.5 21.2531C37.5 23.0813 36.1875 24.6047 34.4609 24.9328C34.8047 25.4953 35 26.1672 35 26.8781C35 28.5422 33.9141 29.9563 32.4141 30.4406C32.4688 30.6984 32.5 30.9719 32.5 31.2531C32.5 33.3234 30.8203 35.0031 28.75 35.0031H23.0078C21.5234 35.0031 20.0781 34.5656 18.8438 33.7453L15.8359 31.7375C13.75 30.3469 12.5 28.0031 12.5 25.4953V22.5031V18.7531V16.8078C12.5 14.5266 13.5391 12.3781 15.3125 10.9484L15.8906 10.4875C17.9609 8.83125 19.375 6.50312 19.8906 3.90937L20.0703 3.01875C20.4766 0.9875 22.4531 -0.332813 24.4844 0.0734373ZM2.5 12.5031H7.5C8.88281 12.5031 10 13.6203 10 15.0031V32.5031C10 33.8859 8.88281 35.0031 7.5 35.0031H2.5C1.11719 35.0031 0 33.8859 0 32.5031V15.0031C0 13.6203 1.11719 12.5031 2.5 12.5031Z"
-                fill="currentColor"
-              />
-            </svg>
-            <p class="features__text">
-              <b>Tastes amazing!</b> No bitterness, gritty, or clumpy texture
-            </p>
-          </li>
-          <li class="features__item">
-            <svg
-              class="features__icon"
-              viewBox="0 0 46 46"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M33.6554 7.78037C34.7784 6.65732 34.7784 4.8335 33.6554 3.71045C32.5323 2.5874 30.7085 2.5874 29.5854 3.71045L17.2499 16.055L12.0929 10.898C10.9698 9.7749 9.146 9.7749 8.02295 10.898C6.8999 12.021 6.8999 13.8448 8.02295 14.9679L15.2104 22.1554C16.3335 23.2784 18.1573 23.2784 19.2804 22.1554L33.6554 7.78037ZM42.2804 19.2804C43.4034 18.1573 43.4034 16.3335 42.2804 15.2105C41.1573 14.0874 39.3335 14.0874 38.2104 15.2105L17.2499 36.18L7.78037 26.7194C6.65732 25.5964 4.8335 25.5964 3.71045 26.7194C2.5874 27.8425 2.5874 29.6663 3.71045 30.7894L15.2104 42.2894C16.3335 43.4124 18.1573 43.4124 19.2804 42.2894L42.2804 19.2894V19.2804Z"
-                fill="currentColor"
-              />
-            </svg>
-
-            <p class="features__text"><b>30 sec habit.</b> Mixes in any beverage fast and easy</p>
-          </li>
-          <li class="features__item">
-            <svg
-              class="features__icon"
-              viewBox="0 0 40 46"
-              fill="currentColor"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0_1_136)">
-                <path
-                  d="M14.1031 0.484984C14.7937 -0.170875 15.8649 -0.161891 16.5554 0.493968C18.9989 2.82092 21.2919 5.32756 23.4344 8.04084C24.4082 6.74709 25.5148 5.33655 26.71 4.18655C27.4094 3.5217 28.4895 3.5217 29.1889 4.19553C32.2521 7.16037 34.8461 11.0776 36.6698 14.7971C38.467 18.4627 39.6622 22.2092 39.6622 24.8506C39.6622 36.3147 30.8268 45.9998 19.8311 45.9998C8.71152 45.9998 0 36.3057 0 24.8416C0 21.3916 1.57587 17.178 4.01934 13.0092C6.48938 8.77756 9.97753 4.36623 14.1031 0.484984ZM19.9816 37.3748C22.2215 37.3748 24.2046 36.7459 26.0726 35.4881C29.7998 32.8467 30.8002 27.5639 28.5603 23.4131C28.3125 22.91 28.0646 22.4069 27.6927 21.9037L23.213 27.1865C23.213 27.1865 16.0065 17.8787 15.5019 17.2498C11.7836 21.9037 9.91556 24.5451 9.91556 27.5639C9.91556 33.7272 14.3953 37.3748 19.9816 37.3748Z"
-                  fill="currentColor"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_1_136">
-                  <rect width="39.6622" height="46" fill="white" />
-                </clipPath>
-              </defs>
-            </svg>
-
-            <p class="features__text">Recharged <b>metabolism</b> to stay in peak shape</p>
-          </li>
-        </ul>
+        <ul class="features__list"></ul>
       </section>
-      <!-- ========== Recommendation ========== -->
       <section class="recommendation" aria-labelledby="recommendation-title">
         <img
           class="recommendation__logo"
@@ -229,204 +73,36 @@
           only exceptional USDA certified organic sustainable sourced ingredients qualify.
         </h3>
       </section>
-      <!-- ========== Slider ========== -->
       <section class="slider" aria-labelledby="blend-title">
         <h2 class="slider__title">
           <span class="slider__title-highlight">[product name]</span> blend
         </h2>
         <div class="slider__container swiper">
           <div class="swiper-wrapper"></div>
-
           <div class="slider__controls">
-            <button class="slider__arrow slider__arrow--prev" aria-label="Previous">
-              <svg
-                width="17"
-                height="24"
-                viewBox="0 0 17 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2.16295 10.9406C1.50989 11.5265 1.50989 12.4781 2.16295 13.064L10.5221 20.564C11.1751 21.15 12.2357 21.15 12.8888 20.564C13.5418 19.9781 13.5418 19.0265 12.8888 18.4406L5.71036 12L12.8835 5.55935C13.5366 4.97341 13.5366 4.02185 12.8835 3.43591C12.2305 2.84998 11.1699 2.84998 10.5169 3.43591L2.15773 10.9359L2.16295 10.9406Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-
+            <button class="slider__arrow slider__arrow-prev" aria-label="Previous"></button>
             <div class="slider__pagination"></div>
-
-            <button class="slider__arrow slider__arrow--next" aria-label="Next">
-              <svg
-                width="17"
-                height="24"
-                viewBox="0 0 17 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M14.5553 10.9406C15.2084 11.5265 15.2084 12.4781 14.5553 13.064L6.19621 20.564C5.54316 21.15 4.48259 21.15 3.82953 20.564C3.17648 19.9781 3.17648 19.0265 3.82953 18.4406L11.0079 12L3.83476 5.55935C3.1817 4.97341 3.1817 4.02185 3.83476 3.43591C4.48781 2.84998 5.54838 2.84998 6.20144 3.43591L14.5606 10.9359L14.5553 10.9406Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
+            <button class="slider__arrow slider__arrow-next" aria-label="Next"></button>
           </div>
         </div>
         <button class="button button--secondary" type="button">add to cart</button>
       </section>
-      <!-- ========== Process (Mobile) ========== -->
+
+      <!-- Mobile view -->
+
       <section class="process" aria-labelledby="process-title">
         <h2 class="process__title">Meticulous Methodical Process</h2>
-        <ul class="process__list">
-          <li class="process__item process__left">
-            <img class="process__item-icon" src="/icons/mission.svg" alt="mission icon" />
-            <h3 class="process__item-title">Mission</h3>
-            <p class="process__item-description">
-              Our team of researchers are working around the clock to uncover the best performance
-              and health-boosting superfoods on the planet. We do the homework so you don’t have to.
-              Each superfood is supported by strong clinical studies.
-            </p>
-          </li>
-          <img
-            class="process__arrow-separator"
-            src="/icons/arrow-down-right.svg"
-            alt="arrow down separator"
-          />
-          <li class="process__item process__right">
-            <img class="process__item-icon" src="/icons/problem.svg" alt="mission icon" />
-            <h3 class="process__item-title">The problem</h3>
-            <p class="process__item-description">
-              our advisory panel reviews all of the scientific research in detail. Each ingredient
-              must pass the rigorous approval process. Once approved, only then do our formulas move
-              on to production.
-            </p>
-          </li>
-          <img
-            class="process__arrow-separator"
-            src="/icons/arrow-down-left.svg"
-            alt="arrow down separator"
-          />
-          <li class="process__item process__left">
-            <img class="process__item-icon" src="/icons/heart.svg" alt="mission icon" />
-            <h3 class="process__item-title">That isn’t therapeutic</h3>
-            <p class="process__item-description">
-              Production takes place in our GMP-compliant, state of the art manufacturing facility.
-              Once again, only using 100% organic ingredients that have been verified by the USDA.
-            </p>
-          </li>
-          <img
-            class="process__arrow-separator"
-            src="/icons/arrow-down-right.svg"
-            alt="arrow down separator"
-          />
-          <li class="process__item process__right">
-            <img class="process__item-icon" src="/icons/running.svg" alt="mission icon" />
-            <h3 class="process__item-title">The result</h3>
-            <p class="process__item-description">
-              Getting our formulas into the hands of people who need it most and transforming lives
-              for the better. We believe in improving humankind by improving human performance. And
-              that starts with nourishing your body with the right fuel.
-            </p>
-          </li>
-        </ul>
+        <ul class="process__list" data-process-mobile></ul>
       </section>
 
       <!-- Tablet/desktop view -->
 
-      <!-- ========== Process Timeline (Tablet/Desktop) ========== -->
       <section class="process-timeline" aria-labelledby="process-timeline__title">
         <h2 class="process-timeline__title" id="process-timeline__title">
           Meticulous Methodical Process
         </h2>
-
-        <div class="process-timeline__grid">
-          <img
-            class="process-timeline__vertical-decor"
-            src="/images/vertical-decor.svg"
-            alt="vertical decor"
-          />
-          <!-- Step 1 -->
-          <article class="process-timeline__card process-timeline__card--left">
-            <div class="process-timeline__card-body">
-              <h3 class="process-timeline__card-heading">Mission</h3>
-              <p class="process-timeline__card-text">
-                Our researchers uncover the best performance and health-boosting superfoods on the
-                planet. We do the homework so you don’t have to. Each superfood is supported by
-                strong clinical studies.
-              </p>
-              <img src="/images/horizontal-decor-left.svg" alt="horizontal decor" />
-            </div>
-          </article>
-
-          <div class="process-timeline__node process-timeline__node--top">
-            <span class="process-timeline__node-icon">
-              <img src="/icons/mission.svg" alt="" />
-            </span>
-          </div>
-
-          <div class="process-timeline__spacer"></div>
-
-          <!-- Step 2 -->
-          <div class="process-timeline__spacer"></div>
-
-          <div class="process-timeline__node">
-            <span class="process-timeline__node-icon">
-              <img src="/icons/problem.svg" alt="" />
-            </span>
-          </div>
-
-          <article class="process-timeline__card process-timeline__card--right">
-            <div class="process-timeline__card-body">
-              <h3 class="process-timeline__card-heading">The problem</h3>
-              <p class="process-timeline__card-text">
-                Our advisory panel reviews all scientific research in detail. Each ingredient must
-                pass a rigorous approval process before moving on to production.
-              </p>
-              <img src="/images/horizontal-decor-right.svg" alt="horizontal decor" />
-            </div>
-          </article>
-
-          <!-- Step 3 -->
-          <article class="process-timeline__card process-timeline__card--left">
-            <div class="process-timeline__card-body">
-              <h3 class="process-timeline__card-heading">That isn’t therapeutic</h3>
-              <p class="process-timeline__card-text">
-                Production takes place in our GMP-compliant, state-of-the-art facility using 100%
-                organic ingredients verified by the USDA.
-              </p>
-              <img src="/images/horizontal-decor-left.svg" alt="horizontal decor" />
-            </div>
-          </article>
-
-          <div class="process-timeline__node">
-            <span class="process-timeline__node-icon">
-              <img src="/icons/heart.svg" alt="" />
-            </span>
-          </div>
-
-          <div class="process-timeline__spacer"></div>
-
-          <!-- Step 4 -->
-          <div class="process-timeline__spacer"></div>
-
-          <div class="process-timeline__node process-timeline__node--bottom">
-            <span class="process-timeline__node-icon">
-              <img src="/icons/running.svg" alt="" />
-            </span>
-          </div>
-
-          <article class="process-timeline__card process-timeline__card--right">
-            <div class="process-timeline__card-body">
-              <h3 class="process-timeline__card-heading">The result</h3>
-              <p class="process-timeline__card-text">
-                We deliver formulas to people who need them most. Nourishing your body with the
-                right fuel improves human performance—from the inside out.
-              </p>
-              <img src="/images/horizontal-decor-right.svg" alt="horizontal decor" />
-            </div>
-          </article>
-        </div>
+        <div class="process-timeline__grid" data-process-desktop></div>
       </section>
-      <!-- ========== FAQ ========== -->
       <section class="faq" aria-labelledby="faq__title">
         <div class="container faq__container">
           <h2 class="faq__title" id="faq__title">FAQs</h2>

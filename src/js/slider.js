@@ -3,6 +3,8 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import arrowPrev from '/landing-page-task/icons/arrow-left.svg?raw';
+import arrowNext from '/landing-page-task/icons/arrow-right.svg?raw';
 
 const slides = [
   {
@@ -95,14 +97,19 @@ if (sliderElement) {
   if (wrapper) {
     renderSlides(wrapper);
 
+    const prevButton = sliderElement.querySelector('.slider__arrow-prev');
+    const nextButton = sliderElement.querySelector('.slider__arrow-next');
+    prevButton.innerHTML = arrowPrev;
+    nextButton.innerHTML = arrowNext;
+
     new Swiper(sliderElement, {
       modules: [Navigation, Pagination],
       loop: true,
       sliderPerView: 1,
       spaceBetween: 24,
       navigation: {
-        nextEl: '.slider__arrow--next',
-        prevEl: '.slider__arrow--prev',
+        nextEl: '.slider__arrow-next',
+        prevEl: '.slider__arrow-prev',
       },
       pagination: {
         el: '.slider__pagination',
