@@ -16,7 +16,7 @@ A responsive landing page built with HTML, SCSS, and vanilla JavaScript. The pro
 
 ## Tooling
 
-- Prettier handles code formatting (run `npm run format` to lint/fix styles).
+- Prettier handles code formatting
 
 ## Features
 
