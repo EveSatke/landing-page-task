@@ -3,8 +3,8 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import arrowPrev from '/landing-page-task/icons/arrow-left.svg?raw';
-import arrowNext from '/landing-page-task/icons/arrow-right.svg?raw';
+import arrowPrev from '../assets/icons/arrow-left.svg?raw';
+import arrowNext from '../assets/icons/arrow-right.svg?raw';
 
 const slides = [
   {

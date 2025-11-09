@@ -1,7 +1,7 @@
-import sleepIcon from '/landing-page-task/icons/moon.svg?raw';
-import immuneIcon from '/landing-page-task/icons/heart-shield.svg?raw';
-import strengthIcon from '/landing-page-task/icons/weight.svg?raw';
-import digestionIcon from '/landing-page-task/icons/stomach.svg?raw';
+import sleepIcon from '../assets/icons/moon.svg?raw';
+import immuneIcon from '../assets/icons/heart-shield.svg?raw';
+import strengthIcon from '../assets/icons/weight.svg?raw';
+import digestionIcon from '../assets/icons/stomach.svg?raw';
 
 const benefits = [
   {
