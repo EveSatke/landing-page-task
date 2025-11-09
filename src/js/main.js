@@ -2,6 +2,7 @@ import '../styles/main.scss';
 import './slider.js';
 import { initMobileMenu } from './menu.js';
 import { initFaq } from './faq.js';
+import { initBenefits } from './benefits.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   const PRODUCT_NAME = '[product name]';
@@ -14,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   initMobileMenu();
   initFaq();
+  initBenefits();
 
   selectors.forEach((selector) => {
     document.querySelectorAll(selector).forEach((node) => {
