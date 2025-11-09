@@ -5,13 +5,14 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 18px 50px;
+  padding: 12px 12px;
   width: 100%;
   border-radius: $radius-md;
   border: 1px solid transparent;
   background: $color-primary;
   color: $color-white;
   text-decoration: none;
+  font-size: 1.375rem;
   font-weight: 400;
   cursor: pointer;
 
@@ -29,6 +30,7 @@
 
   @media (min-width: 768px) {
     width: auto;
+    padding: 12px 82px;
   }
 }
 
