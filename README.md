@@ -10,7 +10,7 @@ A responsive landing page built with HTML, SCSS, and vanilla JavaScript. The pro
 
 ## Stack
 
-- Vite
+- Vite to build to GitHub pages
 - SCSS (modular partials)
 - Swiper JS
 
@@ -18,7 +18,10 @@ A responsive landing page built with HTML, SCSS, and vanilla JavaScript. The pro
 
 - Prettier handles code formatting
 
-## Features
+## How I built it
 
-- Fully responsive layout targeting mobile first, with tablet (>768px) and desktop (>1024px) enhancements.
-- Custom mobile navigation overlay
+- I started with the basic HTML structure to nail down the layout and content.
+- Then I styled everything with SCSS, breaking pieces into smaller partials so I could tweak sections without losing track.
+- After that I refactored the behavior into vanilla JavaScript files, splitting things like navigation, features, benefits, and FAQ so the content stays dynamic and easy to update.
+- I double-checked the page in multiple browsers to make sure the layout and interactions look consistent.
+- Overall I focused on keeping the project organized, with clear folders for scripts, styles, and components so future changes stay simple.
