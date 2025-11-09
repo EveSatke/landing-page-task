@@ -63,10 +63,15 @@
     justify-content: center;
     justify-self: center;
     gap: $space-10;
-    margin: $space-12 0 $space-8 0;
+    margin: $space-12 auto $space-8;
+    width: max-content;
   }
   &__arrow {
-    all: unset;
+    background: none;
+    border: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     color: $color-text;
     cursor: pointer;
     &:hover {
@@ -116,6 +121,10 @@
       justify-items: start;
       max-width: 350px;
     }
+    &__slide-title {
+      text-align: left;
+    }
+
     &__slide-description {
       text-align: left;
       justify-self: flex-start;
