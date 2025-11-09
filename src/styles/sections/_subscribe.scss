@@ -35,14 +35,14 @@
     text-decoration: none;
     letter-spacing: 0.05em;
     margin: 0;
+    &:hover .subscribe__icon {
+      transform: scale(1.2);
+    }
   }
 
   &__icon {
     transform-origin: center;
     transition: transform 0.15s ease;
-    &:hover {
-      transform: scale(1.1);
-    }
   }
 
   @media (min-width: 768px) {

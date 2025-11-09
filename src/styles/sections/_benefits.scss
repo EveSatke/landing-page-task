@@ -26,15 +26,16 @@
     height: 118px;
     max-width: 170px;
     transition: color 0.2s ease;
+    &:hover .benefits__icon {
+      color: $color-primary;
+    }
   }
   &__icon {
     width: 48px;
     height: 49px;
     flex: none;
     color: $color-text;
-    &:hover {
-      color: $color-primary;
-    }
+    transition: color 0.2s ease;
   }
 
   &__text {
